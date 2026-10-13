@@ -1,0 +1,13 @@
+; Demo project for the 16-bit PNG Import repository (not part of the Asset Library download).
+
+config_version=5
+
+[application]
+
+config/name="16-bit PNG Import"
+run/main_scene="res://addons/png16_import/example/example.tscn"
+config/icon="res://icon.png"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/png16_import/plugin.cfg")
